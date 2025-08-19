@@ -1,0 +1,86 @@
+/* Visual moderno para landing page */
+:root {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light;
+  color: #222;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #00d8ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #009ec3;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0;
+}
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.3em;
+}
+
+button {
+  border-radius: 24px;
+  border: none;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #00d8ff;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s, color 0.2s;
+}
+button:hover {
+  background: #009ec3;
+  color: #fff;
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid #009ec3;
+}
+
+
+/* Layout base da landing page */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  gap: 32px;
+}
+
+/* Espaçamento global */
+section {
+  margin-bottom: 32px;
+}
