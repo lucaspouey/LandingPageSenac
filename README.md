@@ -1,12 +1,74 @@
-# React + Vite
+### Landing Page - Desenvolvimento de Sistemas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page responsiva desenvolvida como projeto prático do curso técnico em Desenvolvimento de Sistemas pela Unisenac. O projeto explora conceitos fundamentais como componentes React, estilização CSS e construção de interfaces modernas.
 
-Currently, two official plugins are available:
+📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi criado com o objetivo de consolidar conhecimentos em desenvolvimento web, incluindo:
 
-## Expanding the ESLint configuration
+Criação e reutilização de componentes React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Implementação de estilos CSS
+
+Estrutura e organização de projetos front-end
+
+Ferramentas de desenvolvimento modernas
+
+🛠️ Tecnologias Utilizadas
+
+React 19.1.1 - Biblioteca para construção de interfaces
+
+React DOM 19.1.1 - Renderização de componentes no navegador
+
+Vite 7.1.2 - Build tool e servidor de desenvolvimento
+
+ESLint - Ferramenta de linting para código JavaScript
+
+JavaScript ES Modules - Padrão de módulos moderno
+
+📦 Requisitos
+Node.js versão 16 ou superior
+
+npm ou yarn
+
+🚀 Como Usar
+
+#### Instalação
+
+npm install
+
+#### Executar em Desenvolvimento
+
+npm run dev
+
+📁 Estrutura do Projeto
+
+landingpage/
+
+├── src/
+
+├── components/      Componentes React reutilizáveis
+
+├── App.jsx          Componente principal
+
+└── main.jsx         Ponto de entrada
+
+├── public/              Arquivos estáticos
+
+├── package.json         Dependências e scripts
+
+└── vite.config.js       Configuração do Vite
+
+📚 Aprendizados
+
+Este projeto consolidou conceitos como:
+
+- Componentização e reusabilidade
+
+- Props e gerenciamento de estado
+
+- Estilização de componentes
+
+- Configuração de ferramentas de desenvolvimento
+
+- Boas práticas de código com ESLint
