@@ -7,6 +7,7 @@ import Faq from './components/Faq.jsx';
 import CtaFinal from './components/CtaFinal.jsx';
 import Footer from './components/Footer.jsx';
 
+
 function App() {
   return (
     <div className="landing-page">
@@ -20,5 +21,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
